@@ -151,7 +151,7 @@ function initSite() {
 		url: "xml/index.xml",
 		dataType: "xml",
 		error: function () {
-			location.reload();
+			//location.reload();
 		},
 		success: function (xml) {
 			XML = xml;
